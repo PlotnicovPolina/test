@@ -34,13 +34,13 @@ public class Main {
 //        return bln;
 //    }
 
-//    public static int min(){
-//        int min = numbers[0];
-//        for (int i : numbers) {
-//            if(i < min){
-//              min = i;
-//            }
-//        }
-//        return min;
-//    }
+    public static int min(){
+        int min = numbers[0];
+        for (int i : numbers) {
+            if(i < min){
+              min = i;
+            }
+        }
+        return min;
+    }
 }
